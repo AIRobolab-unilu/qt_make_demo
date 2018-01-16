@@ -1,0 +1,9 @@
+<launch>
+  <!-- ======================= --> 
+  <!-- Create package and game --> 
+  <!-- ======================= -->
+  <node name="packageCreate" pkg="qt_make_demo" type="qt_game.sh" output="screen" required="true"> 
+    <param name="srcPath" value="$(find qt_make_demo)/source.xml" type="str"/>
+    <param name="confPath" value="$(find qt_make_demo)/config" type="str"/>
+  </node>
+</launch>

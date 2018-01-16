@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<action id='1'>
+		<face>ava_talking</face>
+ 	 	<voice>1</voice>
+        <gesture>bye_bye_gesture</gesture>
+        <duration></duration>
+		<face>ava_talking</face>
+ 	 	<voice>2</voice>
+		<face>ava_happy</face>
+  		<voice>NOSOUND</voice>
+		<face>ava_talking</face>
+ 	 	<voice>3</voice>
+        <duration></duration>
+        <face>ava_talking</face>
+ 	 	<voice>4</voice>
+	</action>
+
+    <action id='2'>
+		<duration></duration>
+		<face>ava_talking</face>
+  		<voice>5</voice>
+        <face>ava_surprise</face>
+  		<voice>NOSOUND</voice>
+	</action>
+
+    <action id='3'>
+		<face>ava_talking</face>
+ 	 	<voice>6</voice>
+		<gesture>bye_bye_gesture</gesture>
+        <duration></duration>
+		<face>ava_talking</face>
+  		<voice>7</voice>
+        <duration></duration>
+        <face>ava_talking</face>
+  		<voice>8</voice>
+        <duration></duration>
+		<face>ava_sad</face>
+  		<voice>9</voice>
+	</action>
+</data>
+
+<!--
+
+    A couple of notes:
+    Face and voice must always be consecutive (in order: face, voice).
+    Voice is entered as an integer and takes 'NOSOUND' as argument if no voice is needed.
+    Duration takes a sleep-time in seconds.
+    Face and gesture take strings as input.
+    
+    Here is the skeleton of an action-block:
+
+    <action id=''>
+
+        <face></face>
+        <voice></voice>
+
+        <gesture></gesture>
+        
+        <duration></duration>
+
+    </action>
+-->
