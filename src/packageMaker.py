@@ -17,7 +17,7 @@ os.system('catkin_create_pkg ' + packName + ' std_msgs rospy roscpp')
 
 ##Adds game.py and game.launch
 os.chdir(srcPath)
-os.system('cp game.py /home/ciaran/catkin_ws/src/' + packName + '/src')
+os.system('cp gameTemplate.py /home/ciaran/catkin_ws/src/' + packName + '/src/game.py')
 
 ##Builds the workspace
 os.chdir('/home/ciaran/catkin_ws')
