@@ -9,6 +9,7 @@ This package contains amongst others an **xml-parser** and is intended to be use
 
 ## How to use
 1. Write the desired actions into the **source.xml** file in the **config** directory. (The xml format is meant to facilitate the entry of this data.)
+Explanations on how to format this, are contained in the file.
 
 2. Run the package, by launching **qt_make_demo.launch**:
 
