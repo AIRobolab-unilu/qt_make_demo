@@ -30,7 +30,7 @@ This package contains amongst others an **xml-parser** and is intended to be use
 
 ## Tree
 
-![alt text](https://github.com/AIRobolab-unilu/qt_make_demo/blob/master/Tree.png"Dependency tree")
+![alt text](https://github.com/AIRobolab-unilu/qt_make_demo/blob/master/Tree.png "Dependency tree")
 
 ---
 
