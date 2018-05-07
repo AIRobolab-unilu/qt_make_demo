@@ -8,7 +8,7 @@ This package contains amongst others an **xml-parser** and is intended to be use
 ---
 
 ## How to use
-1. Write the desired actions into the **package.xml** file in the **config** directory. (The xml format is meant to facilitate the entry of this data.)
+1. Write the desired actions into the **source.xml** file in the **config** directory. (The xml format is meant to facilitate the entry of this data.)
 
 2. Run the package, by launching **qt_make_demo.launch**:
 
@@ -16,15 +16,21 @@ This package contains amongst others an **xml-parser** and is intended to be use
 
 3. Enter the desired package-name when it prompts you.
 
-4. Copy the trigger-images into the **config/Images** directory of the newly created package and rename them according to the prior entries in **package.xml**.
+4. Copy the trigger-images into the **config/Images** directory of the newly created package and rename them according to the prior entries in **source.xml**.
 
-5. Copy the sound-files into the **config/Sounds** directory of the newly created package and rename them according to the prior entries in **package.xml**.
+5. Copy the sound-files into the **config/Sounds** directory of the newly created package and rename them according to the prior entries in **source.xml**.
 
 6. To run the new package, launch the game.launch file: 
 
    `roslaunch <your package> game.launch`
 
 7. When the package is running, hold a print-out of your trigger-images in front of the camera. The robot will show the corresponding face and run the corresponding sound-file.
+
+---
+
+## Tree
+
+![alt text](https://github.com/AIRobolab-unilu/qt_make_demo/blob/master/Tree.png"Dependency tree")
 
 ---
 
